@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SJuk2u0JNUOIXfH1EUAl+sL60ipYIh7tWcMZDk7K7DQ=",
+  "Source": "TpStockApi",
+  "BasePath": "_content/TpStockApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
