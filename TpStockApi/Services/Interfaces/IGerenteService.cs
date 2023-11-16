@@ -1,6 +1,9 @@
-﻿namespace TpStockApi.Services.Interfaces
+﻿using TpStockApi.Data.Entities;
+
+namespace TpStockApi.Services.Interfaces
 {
     public interface IGerenteService
     {
+        public List<Gerente> GetAll();
     }
 }
