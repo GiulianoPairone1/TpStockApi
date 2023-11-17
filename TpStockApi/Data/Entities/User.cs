@@ -14,5 +14,7 @@ namespace TpStockApi.Data.Entities
         public string Password { get; set; }
         public string Email { get; set; }
         public string UserType { get; set; }
+        public bool State { get; set; } = true;
+
     }
 }

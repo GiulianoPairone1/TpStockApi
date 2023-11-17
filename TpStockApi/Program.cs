@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -39,7 +40,8 @@ builder.Services.AddDbContext<ConsultaContext>(DbContextOptions => DbContextOpti
 
 # region Inyeccion de dependencias
 builder.Services.AddScoped<IGerenteService, GerenteService>();
-builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IGerenteService, GerenteService>();
+builder.Services.AddScoped<IUserService, UserService>();
 #endregion
 
 builder.Services.AddAuthentication("Bearer") //"Bearer" es el tipo de auntenticación que tenemos que elegir después en PostMan para pasarle el token

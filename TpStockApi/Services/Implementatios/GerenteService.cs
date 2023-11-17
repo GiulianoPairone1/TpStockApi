@@ -11,9 +11,9 @@ namespace TpStockApi.Services.Implementatios
         {
             _context = context;
         }
-        public List<Gerente>GetAll()
+        public List<User>GetGerente()
         {
-            return _context.Gerentes.ToList();
+            return _context.Users.Where(p => p.UserType == "Gerente").ToList();
         }
     }
 }

@@ -21,7 +21,7 @@ namespace TpStockApi.Data
                 new Gerente
                 {
                     FullName = "Micaela Caissno",
-                    Email = "MicaelaCassino@gmail.com",
+                    Email = "micaelacassino@gmail.com",
                     UserName = "M_Cassino",
                     Password = "123123",
                     Id = 1
@@ -31,7 +31,7 @@ namespace TpStockApi.Data
                 new EncargadoStock
                 {
                     FullName = "Emilio Cerro",
-                    Email = "EmilioCerro@gmail.com",
+                    Email = "emiliocerro@gmail.com",
                     UserName = "E_Cerro",
                     Password = "321321",
                     Id = 2
@@ -42,7 +42,7 @@ namespace TpStockApi.Data
                 new Vendedor
                 {
                     FullName = "Valentin Pairone",
-                    Email = "ValentinPAirone@gmail.com",
+                    Email = "valentinpAirone@gmail.com",
                     UserName = "V_Pairone",
                     Password = "123456",
                     Id = 3

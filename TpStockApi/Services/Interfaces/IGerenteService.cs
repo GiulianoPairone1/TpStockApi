@@ -4,6 +4,6 @@ namespace TpStockApi.Services.Interfaces
 {
     public interface IGerenteService
     {
-        public List<Gerente> GetAll();
+        public List<User> GetGerente();
     }
 }
