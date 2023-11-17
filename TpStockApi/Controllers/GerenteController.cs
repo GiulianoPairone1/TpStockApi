@@ -4,8 +4,6 @@ using System.Security.Claims;
 using TpStockApi.Services.Interfaces;
 using TpStockApi.Data.Entities;
 using TpStockApi.Data.Models;
-using TpStockApi.Services.Implementatios;
-using System.Linq;
 
 namespace TpStockApi.Controllers
 {

@@ -13,4 +13,4 @@ namespace TpStockApi.Data.Models
         [Required]
         public string UserName { get; set; }
     }
-}
+} 
